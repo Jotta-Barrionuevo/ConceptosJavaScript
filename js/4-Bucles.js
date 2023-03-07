@@ -28,7 +28,7 @@ do{
 }while(condicion)
 */
 
-let renglon =1;
+let renglon =100;
 do{
 
     document.write(`este es el renglon N${renglon}<br>`);
