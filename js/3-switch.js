@@ -22,6 +22,7 @@ switch(opcion){
 let dia = prompt(" Seleccione un dia para sugerirle el menú especial: 1-Lunes, 2-Miercoles, 3-Viernes ");
 
 switch(dia){
+    case "lunes":
     case "1":
         document.write(`<h2>Menú del lunes </h2>
         <ul>
@@ -32,6 +33,7 @@ switch(dia){
         </ul>
         `);
         break;
+        case "miercoles":
         case "2":
             document.write(`<h2>Menú del lunes </h2>
             <ul>
@@ -41,6 +43,7 @@ switch(dia){
             </ul>
             `);
             break;
+            case "viernes":
             case "3":
                 document.write(`<h2>Menú del lunes </h2>
                 <ul>
