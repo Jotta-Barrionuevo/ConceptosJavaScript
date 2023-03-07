@@ -20,5 +20,27 @@ while(contador <= 10){
 }
 
 // do-while
+/*
+do{
+    todas las lineas de codigo 
+    cambiar la condicion
 
-// for
+}while(condicion)
+*/
+
+let renglon =1;
+do{
+
+    document.write(`este es el renglon N${renglon}<br>`);
+    renglon+=2; //renglon = renglon +2
+
+}while(renglon <=9);
+
+// for (inicializar una variable ; va si o si , condicion logica, tender a que la condicion no se cumpla)
+
+for(let i = 10; i > 0; i--){
+    document.write(`Esta es la linea N${i}<br>`);
+
+}
+
+
